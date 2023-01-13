@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar{
+    border-bottom: solid 1px black;
+    
+    
+}
+.nav-link {
+    margin: 0px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+
+/*/ESTILO SECTION INDEX/*/
+
+.titulo__index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 5px;
+    padding: 10px
+    ;
+}
+
+.titulo__index h2 {
+    border-bottom: solid 2px black;
+} 
+
+.section__index {
+    margin: 50px 25px;
+    border: solid 2px black;
+    border-radius: 0.5%;
+    background-color: black;
+    padding: 25px;
+
+}
+
+/*/ESTILOS CARDS/*/
+
+.card {
+    margin: 15px 50px;
+    
+}
+
+.img__index {
+    height: 350px;
+    ;
+
+}
+
+/*/ESTILOS IMG SLIDER/*/
+
+.img__slider {
+    height: 500px;
+}
+
+.section__slider{
+    border: solid 2px black;
+    border-radius: 0.5;
+    margin: 50px 25px;
+    width: 60%;
+    
+    
+}
+
+.slider__sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black ;
+}
+
+/*/estilos section__bottom /*/
+
+.section_bottom {
+    margin: 50px 5px;
+    background-color: black;
+    
+}
+
+.img__bn {
+    height: 150px;
+    width: 150px;
+}
+
+/*/estilos footer /*/
+
+footer {
+    background-color: black;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
