@@ -36,10 +36,10 @@
 
 .section__index {
     margin: 50px 25px;
-    border: solid 2px black;
     border-radius: 0.5%;
-    background-color: black;
+    background-color: rgb(54, 52, 52);
     padding: 25px;
+    
 
 }
 
@@ -63,10 +63,10 @@
 }
 
 .section__slider{
-    border: solid 2px black;
+    
     border-radius: 0.5;
     margin: 50px 25px;
-    width: 60%;
+    width: 80%;
     
     
 }
@@ -75,20 +75,21 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: black ;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
 }
 
 /*/estilos section__bottom /*/
 
 .section_bottom {
     margin: 50px 5px;
-    background-color: black;
+    background-color:rgb(54, 52, 52);
     
 }
 
 .img__bn {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
 }
 
 /*/estilos footer /*/
@@ -103,3 +104,167 @@ footer div {
     justify-content: space-evenly;
 }
 
+/*/estilos contacto/*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    border: solid 5px black;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 3px;
+}
+
+.section_contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+iframe {
+    height: 600px;
+    width: 800px;
+}
+
+/*/estilos prodcutos/*/
+
+.section__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    border: solid 2px rgb(54, 52, 52);
+    
+
+}
+
+.boton_producto {
+    margin: 10px
+}
+
+.slider__producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+}
+
+.promociones {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 2px rgb(54, 52, 52);
+    border-radius: 1.5%;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.div_productos img {
+    width: 100%;
+}
+
+.a_p {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.a_p:hover{
+    border-bottom: solid 1px black;
+
+}
+
+/*/mediaqueris/*/
+
+@media (max-width:1500px) {
+    .section_contacto {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+    }
+
+    form{
+        width: 80%;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    iframe {
+        width: 80%;
+    }
+}
+
+
+
+
+
+@media (max-width:1200px) {
+    .section_contacto {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+    }
+
+    form{
+        width: 100%;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .promociones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:600px){
+    form {
+        width: 350px;
+    }
+
+    .section_contacto {
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+    }
+
+    iframe {
+        width: 350px;
+    }
+
+    iframe, form {
+        margin: 5px;
+    }
+}
